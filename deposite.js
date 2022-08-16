@@ -16,6 +16,7 @@ document.getElementById('deposite').addEventListener('click', function(){
      const  currentBalance=newBalance+neWdepositeAmount;
 
      balanceTotalElement.innerText=currentBalance;
+     
    
 //  cleaar yje depo field
 
