@@ -4,9 +4,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const userEmail = emailField.value;
     const passField =document.getElementById('password');
     const userPass=passField.value;
-   if(userEmail==='khandokarmeherab@gmail.com' && userPass==='i love you jaan'){
+   if(userEmail==='abba@gmail.com' && userPass==='i love you jaan'){
     console.log('valid user');
-    window.location.href='mainpge.html';
+    window.location.href='deposite.html';
    }
    else{
     alert(' yor password or email is not correct');
