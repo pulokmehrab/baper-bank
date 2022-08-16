@@ -10,5 +10,14 @@ document.getElementById('withdraw-money').addEventListener('click',function(){
    const withdrwnTotalamount= withdrwnamount+newWithdrawAmount;
    newWithAmount.innerText=withdrwnTotalamount;
 
+   const balanceTotalElement = document.getElementById('balance-total');
+   const previousbalanceTotalElementSrting=balanceTotalElement.innerText;
+   const newBalance =parseFloat(previousbalanceTotalElementSrting);
+   const currentBalance=newBalance-withdrwnTotalamount;
+   
+   balanceTotalElement.innerText =currentBalance;
 
+
+
+   withdrawField.value='';
 })

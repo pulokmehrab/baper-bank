@@ -15,8 +15,8 @@ document.getElementById('deposite').addEventListener('click', function(){
    const newBalance =parseFloat(previousbalanceTotalElementSrting);
      const  currentBalance=newBalance+neWdepositeAmount;
 
-     balanceTotalElement.innerText=currentBalance;
-     
+     balanceTotalElement.innerText =currentBalance;
+
    
 //  cleaar yje depo field
 
